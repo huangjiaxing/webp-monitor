@@ -1,0 +1,6 @@
+.mixin(@url) {
+    background-image: url(@url);
+    .webps & {
+        background-image: url('@{url}.webp');
+    }
+}

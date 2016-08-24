@@ -1,0 +1,15 @@
+{
+    "name": "webp-monitor",
+    "version": "1.0.0",
+    "description": "监控图片夹，把图片转为webp格式",
+    "main": "webp-monitor.js",
+    "scripts": {
+        "start": "node webp-monitor.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "huangjiaxing@58ganji.com",
+    "license": "ISC",
+    "dependencies": {
+        "chokidar": "^1.6.0"
+    }
+}
