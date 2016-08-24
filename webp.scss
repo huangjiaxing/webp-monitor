@@ -1,3 +1,10 @@
+/*
+    通过这个函数来引入图片，例如：
+    #wrapper{ @include bg('../img/sample.jpg') }
+    这段代码经过编译后便会生成如下两句代码
+    #wrapper{ background-image:url('../img/sample.jpg'); }
+    .webp #wrapper{ background-image:url('../img/sample.jpg.webp'); }
+ */
 @mixin bg($url) {
     background-image: url($url);
     @at-root(with: all) .webps & {
